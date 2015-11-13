@@ -1,0 +1,74 @@
+﻿body {
+   
+}
+
+.navbar.navbar-inverse{
+    border-radius: 0px;
+    background-color: #286090;
+    padding: 30px 0px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #CCCCCC;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.profile{
+    background-color: #f9f9fc;
+    border: solid 1px #bbbbbb;
+}
+.profile h3{
+    display:inline;
+}
+.profile-image-initials{
+    border: solid 3px #fff;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    background-color: #106AB7;
+    color: #fff;
+    margin-right: auto;
+    margin-top:-40px;
+    float:left;
+}
+
+.profile-image{
+    border: solid 3px #fff;
+    width: 80px;
+    height: 80px;
+    margin-right: auto;
+    margin-top:-40px;
+}
+
+.profile-background{
+    background-size: cover;
+    background-position:center;
+    height:140px;
+
+}
+
+.profile-description{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.profile-buttons{
+    padding-bottom:15px;
+}
