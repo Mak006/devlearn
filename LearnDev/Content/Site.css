@@ -13,8 +13,10 @@
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
+    /*
     padding-left: 15px;
     padding-right: 15px;
+    */
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -31,9 +33,22 @@ textarea {
     max-width: 280px;
 }
 
+/* MAIN RELATED CSS */
+.main{
+    background-color: #f9f9fc;
+    border: solid 1px #bbbbbb;
+    padding: 10px;
+    
+    margin-bottom: 15px;
+}
+
+
+
+/* PROFILE RELATED CSS */
 .profile{
     background-color: #f9f9fc;
     border: solid 1px #bbbbbb;
+    padding: 10px;
 }
 .profile h3{
     display:inline;
@@ -62,6 +77,7 @@ textarea {
     background-size: cover;
     background-position:center;
     height:140px;
+    margin: -10px -10px 0px -10px;
 
 }
 
